@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SPECIAL - DISFRUTANDO CONTIGO MISMA</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_bold.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_book.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_med.css">
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/special.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{	
+	$("#detalle_resultado").hide();
+	
+	$(".miniatura_galeria").bind("click",function(){
+		$("#detalle_resultado").fadeIn(600);
+		/*$("#detalle_resultado").show("blind",{direction:"vertical"},1500);*/		
+	});
+	$("#cerrar_detalle_galeria").bind("click",function(){
+		$("#detalle_resultado").fadeOut(300)
+
+	});
+
+});	
+</script>
+
+</head>
+
+<body>
+<div id="int_container">
+	<div id="petalo01"><img src="images/petalo01.png" width="59" height="74" /></div>
+    <div id="petalo02"><img src="images/petalo02.png" width="47" height="57" /></div>
+    <div id="petalo03"><img src="images/petalo03.png" width="60" height="48" /></div>
+    <div id="petalo04"><img src="images/petalo04.png" width="60" height="41" /></div>
+    <div id="petalo05"><img src="images/petalo05.png" width="35" height="41" /></div>
+    <div id="petalo06"><img src="images/petalo06.png" width="60" height="48" /></div>
+    <div id="petalo07"><img src="images/petalo07.png" width="49" height="34" /></div>
+    <div id="detalle_resultado">
+    	<div id="all_resultado">
+    		<div id="all_tarjeta">
+    			<div id="iz_tarjeta"><img src="images/iz_borde_fotoresultado.png" width="65" height="607" /></div>
+    			<div id="centro_tarjeta">
+                	<div id="cerrar_detalle_galeria"></div>
+        			<div id="tarjeta">
+                    	<div class="textos_usuaria">
+							<div class="datos_principales">
+                            	<div class="nombre">Claudia,</div>
+                            </div>
+                            <div class="txt_datos">Eres  una mujer  que les gusta dar y recibir amor sin esperar nada<br /> a cambio, y cuando estás contigo misma te encanta engreírte.<br /> Para ti estar sola es una sensación mágica y enriquecedora.</div>
+                            <div class="descripcion_usuaria">Las palabras clave que identifican tus momentos de disfrute son:</div>
+                        </div>
+                    </div>
+            		<div id="bottom_tarjeta"><img src="images/bottom_fondoresultado.png" width="868" height="6" /></div>
+       			</div>
+        	    <div id="de_tarjeta"><img src="images/de_borde_fotoresultado.png" width="65" height="607" /></div>
+    		</div>
+            <div id="compartir_receta">Compartir receta:   <img src="images/compartir_fb.jpg" width="91" height="22" align="absmiddle" />          <img src="images/compartir_tw.jpg" width="56" height="22" align="absmiddle" /> </div>
+   			
+    	</div>
+    </div>
+  <div id="int_header_galeria">
+  	<div id="int_header_content_galeria">
+    	<div id="contenedor_header_interno">
+    		<div id="int_logo_esika"><img src="images/int_logo_esika.png" width="66" height="41" /></div>
+        	<div id="share_interior">
+          	<div id="like_btn">
+       	    <img src="images/like_btn.png" width="73" height="24">
+            </div>
+            <div id="tweet_btn">
+       	    <img src="images/tweet_btn.png" width="66" height="20">
+            </div>
+            <div id="inicio_blanco">
+            	inicio
+            </div>
+          </div>
+        </div>
+        <div id="int_logo_special">
+        	<div id="titulo_seccion">Disfrutando<br />contigo misma</div>
+        </div>
+        <div id="int_titular">
+        	<span class="int_titular_disfruta_galeria">Los ingredientesa que otras personas usan para </span>
+            <span class="int_titular_contigo_galeria">crear momentos especiales.</span>
+        </div>
+    </div>
+  </div>
+  <div id="int_all_galeria">
+  	<div id="int_galeria">
+    	<div id="opciones_galeria_selec">
+        <div id="contigo_galeria_selec">
+        	<h1>Contigo<br />misma</h1>
+        </div>
+        <div id="familia_galeria_secundario">
+        	<h1>Con tu<br />familia</h1>
+        </div>
+        <div id="amigas_galeria_secundario">
+        	<h1>Con tus<br />amigas</h1>
+        </div>
+        <div id="pareja_galeria_secundario">
+        	<h1>Con tu<br />pareja</h1>
+        </div>
+        </div>
+        <p>* Selecciona la galeria que desees para ver todas las recetas creadas.</p>
+        <div id="contenedor_carrusel_animacion">
+        <div id="carrusel_contenedor_galeria">
+        	<div id="arrow_left"><img src="images/arrow_left.png" width="23" height="74" /></div>
+            <div id="mascara_galeria">
+              <div id="all_miniaturas">
+              	<div class="contenedor_miniaturas">
+            	<div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="over_galeria">
+                        	Mariana<br />Portilla Mendoza
+                        </div>
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia
+                        </div>
+                  </div>
+                	<div class="sombra_right"></div>
+                </div>
+                <div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia</div>
+                    </div>
+                	<div class="sombra_right"></div>
+                </div>
+                <div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia</div>
+                    </div>
+                	<div class="sombra_right"></div>
+                </div>
+              </div>
+
+				<div class="contenedor_miniaturas">
+            	<div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="over_galeria">
+                        	Mariana<br />Portilla Mendoza
+                        </div>
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia
+                        </div>
+                  </div>
+                	<div class="sombra_right"></div>
+                </div>
+                <div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia</div>
+                    </div>
+                	<div class="sombra_right"></div>
+                </div>
+                <div class="miniatura_galeria">
+                	<div class="sombra_left"></div>
+                    <div class="vista_previa">
+                    	<div class="imagen_m"><img src="images/miniatura_special_galeria.jpg" width="284" height="201" /></div>
+                        <div class="velo_m"></div>
+                        <div class="pais_m">Colombia</div>
+                    </div>
+                	<div class="sombra_right"></div>
+                </div>
+              </div>
+              
+              
+              </div>
+            </div>
+            <div id="arrow_right"><img src="images/arrow_right.png" width="23" height="74" /></div>
+        </div>
+        </div>
+    </div>
+
+  </div>
+  <footer id="footer_galeria_2">
+ <div id="contenedor_btn_regresar">
+ 	<div id="btn_regresar" style=" margin-left:480px;"><a href="#"><img src="images/regresar_btn.png" width="89" height="25" border="0" onclick="history.back(-1);"/></a></div>
+ </div>
+</footer>  
+</div>
+</body>
+</html>

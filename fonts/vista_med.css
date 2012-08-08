@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'VistaSanMed';
+    src: url('VistaSanMed.eot');
+    src: url('VistaSanMed.eot?#iefix') format('embedded-opentype'),
+         url('VistaSanMed.woff') format('woff'),
+         url('VistaSanMed.ttf') format('truetype'),
+         url('VistaSanMed.svg#VistaSanMed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

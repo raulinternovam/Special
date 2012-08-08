@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'VistaSanBook';
+    src: url('VistaSanBook.eot');
+    src: url('VistaSanBook.eot?#iefix') format('embedded-opentype'),
+         url('VistaSanBook.woff') format('woff'),
+         url('VistaSanBook.ttf') format('truetype'),
+         url('vistasanbook.svg#VistaSanBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

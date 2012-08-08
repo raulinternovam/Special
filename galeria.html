@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SPECIAL - EL RECETARIO</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_bold.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_book.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_med.css">
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/special.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{	
+	$("#detalle_resultado").hide();
+	$("#detallec1").hide();
+	$("#detallec2").hide();
+	
+	$("#masinfo_btn").bind("click",function(){
+		$("#detalle_resultado").fadeIn(600);
+		/*$("#detalle_resultado").show("blind",{direction:"vertical"},1500);*/
+		setTimeout(function () {
+        $("#detallec1").fadeIn(2000, function(){});
+    	},200)
+		
+		setTimeout(function () {
+        $("#detallec2").show("blind",{direction:"horizontal"},2000);
+    	},1000)
+		
+	});
+	$("#cerrar_detalle").bind("click",function(){
+		$("#detalle_resultado").fadeOut(300)
+		$("#detallec1").hide();
+		$("#detallec2").hide();
+
+	});
+
+});	
+</script>
+
+</head>
+
+<body>
+<div id="int_container">
+
+	<div id="detalle_resultado">
+		<div id="detalle_special">
+        <div id="flores_special"></div>
+		<div id="soporte_special">
+        	<div id="detallec1">
+            	<div id="destello_detalle"></div>
+                <div id="mandatorio">
+                	Disfruta el mundo<br>
+					de los aromas<br>
+					<span class="madatorio_bold">ELEGANTES</span>
+                </div>
+            </div>
+            <div id="detallec2">
+            	<div id="detalle_concepto">
+                	<span class="detalle_titulos">Los momentos especiales los haces tú </span>
+                    <p>La alegría te invade y decides contárselo al mundo dejando flores en cada rincón...haces única una noche con tu pareja, evocas recuerdos inolvidables con tus amigas o haces mágico un instante con la familia. <br>¡Así es <span class="madatorio_bold" style="color:#685E58;">Special,</span> una fragancia que representa a la mujer que disfruta cada momento de su vida!</p>
+                </div>
+                <div id="detalle_fragancia_nota">
+               	  <div id="tipo_fragancia">
+                    	<span class="detalle_titulos">Tipo de fragancia</span>
+                    <p><span style="color:#31352f;">Floral Elegante</span><br>
+                       Un delicioso bouquet de gardenias<br> 
+					   se combina con finas maderas<br> 
+					   y un fresco toque frutal.</p>
+                    </div>
+                  <div id="nota_floral">
+                  	<span class="detalle_titulos" style="margin-bottom:8px;">Nota floral</span>
+                    <div id="carrusel_elementos">
+                    	<div id="left_btn">
+                        	<a href="javascript:;">atras</a>
+                        </div>
+                        <div id="mascara">
+                        	<div id="contenedor_nota">
+                                <div class="elemento" style="width:83px; margin-left:0px;">
+                    				<div class="imagen_nota" style="margin-left:16px;"><img src="images/flordenaranja.png" width="35" height="33" alt="Flor de Naranja" title="Flor de Naranja"></div>
+                      				<p>Flor de Naranja</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/gardenia.png" width="45" height="36" alt="Gardenia" title="Gardenia"></div>
+                      				<p>Gardenia</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/jasmin.png" width="45" height="36" alt="Jazmín" title="Jazmín"></div>
+                      				<p>Jazmín</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/miel.png" width="35" height="33" alt="Miel" title="Miel"></div>
+                      				<p>Miel</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/patchouli.png" width="35" height="33" alt="Patchouli" title="Patchouli"></div>
+                      				<p>Patchouli</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/naranja.png" width="33" height="26" alt="Naranja" title="Naranja"></div>
+                      				<p>Naranja</p>
+                    			</div>
+                    			<div class="elemento">
+                    				<div class="imagen_nota"><img src="images/franbuesa.png" width="33" height="26" alt="franbuesa" title="franbuesa"></div>
+                      				<p>Franbuesa</p>
+                    			</div>
+                    		</div>
+                    	</div>
+                    	<div id="right_btn">
+                        	<a href="javascript:;">adelante</a>
+                        </div>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <div id="cerrar_detalle"></div>
+        </div>
+    </div>
+    </div>
+	<div id="petalo01"><img src="images/petalo01.png" width="59" height="74" /></div>
+    <div id="petalo02"><img src="images/petalo02.png" width="47" height="57" /></div>
+    <div id="petalo03"><img src="images/petalo03.png" width="60" height="48" /></div>
+    <div id="petalo04"><img src="images/petalo04.png" width="60" height="41" /></div>
+    <div id="petalo05"><img src="images/petalo05.png" width="35" height="41" /></div>
+    <div id="petalo06"><img src="images/petalo06.png" width="60" height="48" /></div>
+    <div id="petalo07"><img src="images/petalo07.png" width="49" height="34" /></div>
+  	<div id="int_header_galeria">
+  	<div id="int_header_content_galeria">
+    	<div id="contenedor_header_interno">
+    		<div id="int_logo_esika"><img src="images/int_logo_esika.png" width="66" height="41" /></div>
+        	<div id="share_interior">
+          	<div id="like_btn">
+       	    <img src="images/like_btn.png" width="73" height="24">
+            </div>
+            <div id="tweet_btn">
+       	    <img src="images/tweet_btn.png" width="66" height="20">
+            </div>
+            <div id="inicio_blanco">
+            	inicio
+            </div>
+          </div>
+        </div>
+        <div id="int_logo_special">
+        	<div id="titulo_seccion">El Recetario</div>
+        </div>
+        <div id="int_titular">
+        	<span class="int_titular_disfruta_galeria">Los ingredientesa que otras personas usan para </span>
+            <span class="int_titular_contigo_galeria">crear momentos especiales.</span>
+        </div>
+    </div>
+  </div>
+  	<div id="int_all_galeria">
+  	<div id="int_galeria">
+    	<p>* Selecciona la galeria que desees para ver todas las recetas creadas.</p>
+    	<div id="opciones_galeria">
+        <div id="contigo_galeria">
+        	<h1>Contigo<br />misma</h1>
+        </div>
+        <div id="familia_galeria">
+        	<h1>Con tu<br />familia</h1>
+        </div>
+        <div id="amigas_galeria">
+        	<h1>Con tus<br />amigas</h1>
+        </div>
+        <div id="pareja_galeria">
+        	<h1>Con tu<br />pareja</h1>
+        </div>
+        </div>
+    </div>
+  </div>
+  	<div id="footer_galeria">
+  	<div id="footer_int">
+  	<div id="frasco_special_galeria">
+    	<div id="frasco_g">
+        	<div id="masinfo_btn">Conoce más <br />sobre Special <br />
+      aquí <img src="images/flecha_rollover.png" width="6" height="7" align="absmiddle" /></div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

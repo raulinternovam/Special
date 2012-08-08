@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<!--[if IE]>
+<script type="text/javascript">
+var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');
+for (var i=0; i<e.length; i++) {
+document.createElement(e[i]);
+}
+</script>
+<![endif]-->
+<title>ESIKA - SPECIAL</title>
+<link rel="shortcut icon"  href="images/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_bold.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_book.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_med.css">
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/special.js"></script>
+<script type="text/javascript" src="jquery.aw-showcase.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{	
+	$("#detalle_resultado").hide();
+	$("#tooltip_special").bind("click",function(){
+		$("#detalle_resultado").fadeIn(600);
+		/*$("#detalle_resultado").show("blind",{direction:"vertical"},1500);*/
+		
+	});
+	$("#cerrar_detalle").bind("click",function(){
+		$("#detalle_resultado").fadeOut(300)
+	});
+
+});	
+</script>	
+
+</head>
+
+<body>
+<div id="main">
+<header>
+	<div id="detalle_resultado">
+		<div id="detalle_special">
+        <div id="flores_special"></div>
+		<div id="soporte_special">
+        	<div id="detallec1">
+            	<div id="destello_detalle"></div>
+                <div id="mandatorio">
+                	Disfruta el mundo<br>
+					de los aromas<br>
+					<span class="madatorio_bold">ELEGANTES</span>
+                </div>
+            </div>
+            <div id="detallec2">
+            	<div id="detalle_concepto">
+                	<span class="detalle_titulos">Los momentos especiales los haces tú </span>
+                    <p>La alegría te invade y decides contárselo al mundo dejando flores en cada rincón...haces única una noche con tu pareja, evocas recuerdos inolvidables con tus amigas o haces mágico un instante con la familia. <br>¡Así es <span class="madatorio_bold" style="color:#685E58;">Special,</span> una fragancia que representa a la mujer que disfruta cada momento de su vida!</p>
+                </div>
+                <div id="detalle_fragancia_nota">
+               	  <div id="tipo_fragancia">
+                    	<span class="detalle_titulos">Tipo de fragancia</span>
+                    <p><span style="color:#31352f;">Floral Elegante</span><br>
+                       Un delicioso bouquet de gardenias<br> 
+					   se combina con finas maderas<br> 
+					   y un fresco toque frutal.</p>
+                    </div>
+                  <div id="nota_floral">
+                  	<span class="detalle_titulos" style="margin-bottom:8px;">Nota floral</span>
+                    <div id="carrusel_elementos">
+                    	<div id="left_btn">
+                        	<a href="javascript:;">atras</a>
+                        </div>
+                        <div id="mascara">
+                        	<div id="contenedor_nota">
+                                <div class="elemento" style="width:83px; margin-left:0px;">
+                    				<div class="imagen_nota" style="margin-left:16px;"><img src="images/flordenaranja.png" width="35" height="33" alt="Flor de Naranja" title="Flor de Naranja"></div>
+                      				<p>Flor de Naranja</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/gardenia.png" width="45" height="36" alt="Gardenia" title="Gardenia"></div>
+                      				<p>Gardenia</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/jasmin.png" width="45" height="36" alt="Jazmín" title="Jazmín"></div>
+                      				<p>Jazmín</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/miel.png" width="35" height="33" alt="Miel" title="Miel"></div>
+                      				<p>Miel</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/patchouli.png" width="35" height="33" alt="Patchouli" title="Patchouli"></div>
+                      				<p>Patchouli</p>
+                    			</div>
+                                <div class="elemento">
+                    				<div class="imagen_nota"><img src="images/naranja.png" width="33" height="26" alt="Naranja" title="Naranja"></div>
+                      				<p>Naranja</p>
+                    			</div>
+                    			<div class="elemento">
+                    				<div class="imagen_nota"><img src="images/franbuesa.png" width="33" height="26" alt="franbuesa" title="franbuesa"></div>
+                      				<p>Franbuesa</p>
+                    			</div>
+                    		</div>
+                    	</div>
+                    	<div id="right_btn">
+                        	<a href="javascript:;">adelante</a>
+                        </div>
+                    </div>
+                  </div>  
+                </div>
+            </div>
+            <div id="cerrar_detalle"></div>
+        </div>
+    </div>
+    </div>
+	<div id="header_content">
+    	<div id="logo_share">
+          <div id="esika_logo">
+          	<img src="images/esika_logo.png" width="81" height="35" title="ESIKA" alt="ESIKA">
+          </div>
+          <div id="share">
+          	<div id="like_btn">
+       	    <img src="images/like_btn.png" width="73" height="24">
+            </div>
+            <div id="tweet_btn">
+       	    <img src="images/tweet_btn.png" width="66" height="20">
+            </div>
+          </div>
+        </div>
+		<div id="special_txt">
+        <div id="logo_special_content">
+        <div id="logo_special">
+       	  <img src="images/special_logo.png" width="430" height="229" alt="Special" title="Special">
+        </div>
+        </div>
+        <div id="tag_line">
+        	<span class="head_title">Un momento especial <br>lo haces tú...</span>
+            <p>Con estilo, fascinantes o tal vez relajados...<br>
+              ¿Qué identifica esos momentos de disfrute<br>que tienes solo para ti?<br>
+              Haz el Test y descúbrelo>
+
+            </p>
+        </div>
+      </div>
+		<div id="producto_special">
+       	<div id="frasco">
+        <div id="tooltip_special">Conoce más<br>sobre Special<br> aquí</div>
+        </div>
+        <div id="destello"></div>
+		</div>
+        <div id="disfrutando">
+        	<div id="disfrutando_contigo">
+            	<div id="ingresar_contigo">
+                	<div class="empezar_btn">
+                     Hacer test
+                    </div>
+                </div>
+                <p><span class="vista_sans_bold">Solo tú.</span></p>
+            </div>
+            <div id="disfrutando_pareja">
+            <p><span class="vista_sans_bold_lila">Junto a él</span></p>
+            </div>
+            <div id="disfrutando_familia">
+            <p><span class="vista_sans_bold_lila">En familia</span></p>
+            </div>
+            <div id="disfrutando_amigas">
+            <p><span class="vista_sans_bold_lila">Con amigas</span></p>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+	<div id="section_content">
+    	<div id="recetario">
+            <p><span class="title_p_recetario">Los especiales</span>
+            Conoce cómo son los momentos especiales <br>de otras mujeres como tú.</p>
+            <div class="btn_ingresar">
+            	<a href="javascript:;">Ingresar</a>
+            </div>
+        </div>
+        <div id="consejos">
+        	<div id="consejos1">
+        	<span class="title_p_recetario">¡ A celebrar cada momento!</span>
+            <p>4 consejos claves para disfrutar el tiempo que pasas junto a ti. </p>
+            <div class="btn_ingresar">
+            	<a href="javascript:;">Consulta</a>
+            </div>
+            </div>
+          <div id="consejos2">
+            	<div id="imagen_tips"><img src="images/imagen_tips.jpg" width="98" height="122" alt="tips"></div>
+                <div id="tips_content">
+            	<span class="title_p_recetario">Tips</span>
+                <div id="mascara_tips">
+                	<div id="all_tips">
+                    	<div class="tip_txt">
+                        	<h5>2 minutos de relajación te ayudarán a armonizar cuerpo y mente. Cierra los ojos, respira profundo y expúlsala el aire lentamente. Repite esta actividad unas 10 veces y te sentirás mucho mejor.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="miga_tips">
+                	<a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer_home">
+	<div id="footer_content"></div>
+</footer>
+</div>
+</body>
+</html>

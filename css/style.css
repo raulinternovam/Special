@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, a:hover, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0 none;font: inherit; margin: 0; padding: 0;vertical-align: baseline; text-decoration:none; list-style:none outside none; font-family:Arial, Helvetica, sans-serif; color:#383938;}
+
+*{outline:none;}
+
+#main {background-color: #FFFFFF;height: auto;overflow: hidden;width: 100%;}
+/*HEADER*/
+header{ background-image:url(../images/special_esika_disfruta_ella.jpg); background-position: center top; background-repeat: no-repeat; clear: both; float: left; height: 633px; width: 100%; background-size:100%;}
+#header_content{ height: 633px; margin: 0 auto; width: 1020px;}
+#logo_share{ height:57px; float:left; width:1020px;}
+#esika_logo{  height:35px; float:left; margin:22px 0px 0px 45px; width:81px;}
+#share{  float:left; height:48px;  margin:9px 0px 0px 821px; position:relative; width:73px; z-index:100;}
+#like_btn{  cursor:pointer; float:left; height:24px; margin-bottom:4px; width:73px; overflow:hidden;}
+#tweet_btn{ cursor:pointer; float:left; height:20px; margin-left:3px; /*margin-left:7px;*/ width:66px;}
+#special_txt{ float: left; height: 383px; margin: 36px 0 0 8px; width: 462px;}
+#logo_special{ float:left; height:229px; width:430px;}
+#tag_line{float:left; height:157px;  margin-left:127px; margin-top:-66px; width:330px;}
+#tag_line p{ background-image:url(../images/special_bullet.png); background-repeat:no-repeat; background-position:10px 1px; color:#FFFFFF;  float:left; font-family:VistaSanBook; font-size:15px; height:auto;line-height:18px;  margin-top:23px; padding-left:3px; text-align:center; width:330px;}
+.head_title{color:#FFFFFF; font-size:26px; font-family:VistaSanBold;  float:left; margin-left:48px; line-height:26px; text-align:center;}
+#producto_special{ float: left; height: 383px; margin: 35px 0 0 283px; width: 265px;}
+#frasco{ background-image:url(../images/special_frasco_esika.png); background-repeat:no-repeat; background-position:0px -1px; float: left; height: 306px; margin: 77px 0 0 68px; width: 197px;}
+#destello{ width:372px; height:376px; position:absolute; top:66px; //left:1068px; background-image:url(../images/destello_special.png); background-repeat:no-repeat;}
+#tooltip_special{background:url(../images/bg_special_detalle_roll.png) no-repeat 0px 0; color: #FFFFFF;font-family: VistaSanMed; font-size: 11px; height: 67px;  margin-left: 97px;
+ margin-top: -62px; line-height:11px; padding-top: 22px; text-align: center; width: 96px; position:relative; z-index:100; cursor:pointer;}
+#disfrutando{ float: left; height: 133px; margin: 18px 0 0 37px; width: 949px;}
+.vista_sans_bold{ font-family: VistaSanBold; font-size:17px; width:180px; float:left; line-height:9px; height:auto; //line-height:16px; color:#FFFFFF;}
+#ingresar_contigo{ width:231px; height:87px; float:left;}
+#disfrutando_contigo{ background-image:url(../images/disfrutando_contigo_btn.png); background-repeat:no-repeat; cursor: pointer;float: left; height: 132px; margin-right: 8px; width: 231px;}
+#disfrutando_contigo p{background-image:url(../images/bullet_blanco.png);background-position: 22px 0px; background-repeat: no-repeat; color: #FFFFFF; float: left; font-family: VistaSanBook; font-size: 15px; height: 36px; line-height: 18px; padding-left: 38px; width: 192px; margin-top:9px; //line-height: 14px; //margin-top:6px;}
+.vista_sans_bold_lila{ font-family: VistaSanBold; font-size:17px; width:180px; float:left; line-height:9px; color:#93699f; height:auto; //line-height:16px;}
+#disfrutando_familia{ background-image:url(../images/disfrutando_familia.png); background-repeat:no-repeat; float: left; height: 132px; margin-right: 8px; width: 231px;}
+#disfrutando_familia p{background-image:url(../images/bullet_lila.png);background-position: 22px 0px; background-repeat: no-repeat; color: #93699f; float: left; font-family: VistaSanBook; font-size: 15px; height: 36px; line-height: 18px; padding-left: 38px; width: 192px; margin-top:95px; //line-height: 14px; //margin-top:93px;}
+#disfrutando_pareja{background-image:url(../images/disfrutando_pareja.png); background-repeat:no-repeat; float: left; height: 132px; margin-right: 8px; width: 231px;}
+#disfrutando_pareja p{background-image:url(../images/bullet_lila.png);background-position: 22px 0px; background-repeat: no-repeat; color: #93699f; float: left; font-family: VistaSanBook; font-size: 15px; height: 36px; line-height: 18px; padding-left: 38px; width: 192px; margin-top:95px; //line-height: 14px; //margin-top:93px;}
+#disfrutando_amigas{ background-image:url(../images/disfrutando_amigas.png); background-repeat:no-repeat; float: left; height: 132px; width: 231px;}
+#disfrutando_amigas p{background-image:url(../images/bullet_lila.png);background-position: 22px 0px; background-repeat: no-repeat; color: #93699f; float: left; font-family: VistaSanBook; font-size: 15px; height: 36px; line-height: 18px; padding-left: 38px; width: 192px; margin-top:95px; //line-height: 14px; //margin-top:93px;}
+.empezar_btn { width:112px; height:43px; float:left; background-image:url(../images/btn_empezar_special.png); background-repeat:no-repeat; background-position:0 1px; color:#FFFFFF; font-family: VistaSanMed; text-align:center; line-height:40px; font-size:17px; margin:27px 0px 0px 60px;}
+#detalle_special{ position:absolute; width:1017px; height:400px; left:50%; margin-left:-508px; top:80px;/*display:none;*/}
+#soporte_special{ position:relative; width:1017px; height:400px; background-image:url(../images/detalle_special_bg.png); top:33px;}
+#flores_special{background-image:url(../images/detalle_special_flores.png);height: 140px; left: 515px; position: relative; top: 135px; width: 335px;}
+#detallec1{ width:300px; height:441px; float:left; background-image:url(../images/detalle_special_frasco.png); background-repeat:no-repeat; background-position:-13px 0px;margin-left:55px; margin-top:-40px; position:relative; z-index:10;}
+#destello_detalle{ width:409px; height:292px; float:left; background-image:url(../images/destello_detalle_special.png); background-repeat:no-repeat; margin: -98px 0 0 18px;}
+#mandatorio{ background-image:url(../images/disfruta_mundo_aromas_elega.png);color:#FFFFFF;font-family:VistaSanBook; font-size:10px; float:left; height:50px; margin:-66px 0 0 197px; padding-top:18px; width:94px; text-align:center;}
+.madatorio_bold{ font-family:VistaSanBold; color:#FFFFFF;}
+#detallec2{ float: left; height: 255px; margin-top: 84px; width: 540px;}
+#detalle_concepto{ float:left; height:90px; width:540px;}
+.detalle_titulos{ float:left; font-family: VistaSanBook; font-size:17px; color:#d3212a; margin:10px 0px 0px 20px; width:87%;}
+#detalle_concepto p{ font-size:11px; line-height:16px; color:#685e58; float:left; width:528px; height:auto; padding-left:22px; background-image:url(../images/special_bullet_p.png); background-position:5px 0px; background-repeat:no-repeat; margin-top:8px;}
+#detalle_fragancia_nota{ width:593px; height:180px; float:left;}
+#tipo_fragancia{ width:261px; height:145px; float:left; margin-top:18px;}
+#tipo_fragancia p{ background-image:url(../images/tipo_de_fragancia_bg.png); color: #685E58; float: left; font-size: 11px; height: 84px; line-height: 16px; margin: 13px 0 0 10px; padding: 14px 0 0 20px; width: 217px;}
+#nota_floral{ float:left; height:145px; width:332px; margin-top:18px;}
+#carrusel_elementos{ float:left; height:78px; width:221px; margin-left:22px;}
+#mascara{ width:165px; height:63px; float:left; padding-top:15px; overflow:hidden;}
+#contenedor_nota{ width:562px; height:54px; float:left;}
+#left_btn{ float:left; height:26px; width:28px; margin-top:30px;}
+#left_btn a{ float:left; height:26px; width:28px; overflow:hidden; text-indent:-10000px; background-image:url(../images/carrusel_special_btn.png);}
+#left_btn a:hover{ background-position:0px -27px;}
+#right_btn{ float:left; height:26px; width:28px; margin-top:30px;}
+#right_btn a{float:left; height:26px; width:28px; overflow:hidden; text-indent:-10000px; background-image:url(../images/carrusel_special_btn.png); background-position:-29px 0px;}
+#right_btn a:hover{background-position:-29px -27px;}
+.elemento{ width:61px; height:54px; float:left; margin-left:15px;}
+.elemento p{ font-size:12px; color:#685e58; font-family: VistaSanBook; width:100%; text-align:center; clear:both;  float:left;}
+.imagen_nota{ float:left; height:36px; width:45px; margin-left:9px; display: inline; text-align:center;}
+#cerrar_detalle{ position:absolute; z-index:100; background-image:url(../images/cerrar_detalle.png); width:43px; height:32px; right:145px; top:57px; font-size:11px; color:#FFFFFF; text-align:center; cursor:pointer;}
+#cerrar_detalle_galeria{ background-image:url(../images/cerrar_detalle.png);     color: #FFFFFF;cursor: pointer; font-size: 11px; height: 32px; left: 821px; margin-bottom: -17px;
+ margin-top: -15px;  position: relative; text-align: center; width: 43px; z-index: 100;}
+/*FIN DE HEADER*/
+
+
+/*CONTENIDO*/
+section{background:no-repeat; clear: both; float: left; height: 269px; width: 100%;}
+#section_content{ height:269px; margin:0 auto; width:1020px;}
+#recetario{background:url(../images/el_recetario_special_bg.jpg) no-repeat; float: left; height: 189px; padding: 80px 0 0 130px; width: 408px;}
+#recetario p{ color: #B6242B; float: left; font-family: VistaSanBook; font-size: 14px; height: auto; line-height: 15px; width: 180px;}
+.title_p_recetario{ font-size:20px; float:left; color:#d51d29; line-height:20px; width:100%; margin-bottom:5px; font-family: GothamMediumRegular;}
+.btn_ingresar{ clear:both; float:left; height:26px; margin-top:12px; width:98px;}
+.btn_ingresar a{  background-image:url(../images/btn_special_bg.png); background-position:0px 0px;color:#FFFFFF; float:left; font-family: VistaSanBook; font-size:14px; height:21px; padding-top:5px; text-align:center; width:98px;}
+.btn_ingresar a:hover{background-position:0px -28px;}
+#consejos {background:url(../images/consejos_special_bg.jpg) no-repeat; float: left; height: 269px; width: 479px;}
+#consejos1{ float:left; height:120px; width:270px; margin:80px 0px 0px 125px;}
+#consejos2{ float:left; height:170px; width:332px; margin:60px 0px 0px 85px;display:none;}
+#imagen_tips{ width:98px; height:122px; float:left; margin:17px 0px 0px 5px;}
+#tips_content{ width:212px; height:auto; float:left; margin:17px 0px 0px 10px;}
+#mascara_tips{ width:212px; height:118px; float:left; overflow:hidden;}
+#all_tips{ width:auto; min-height:118px; float:left;}
+.tip_txt{ width:212px; height:118px; float:left;}
+.tip_txt h5{ color:#31352f; font-family: VistaSanBook; font-size:12px;}
+#miga_tips{ width:57px; height:13px; float:left; margin-left:30px;}
+#miga_tips a{ width:9px; height:9px; float:left; background-image:url(../images/bullet_tips.jpg); background-position:-1px 0px; background-repeat:no-repeat; margin-right:5px;}
+#miga_tips a:hover{background-position:-10px 0px;}
+#consejos p{   color:#575757; float:left; font-family: VistaSanBook; font-size:14px; height:auto; margin-top:5px;width:253px;}
+/*FIN DE CONTENIDO*/
+
+/*FOOTER*/
+footer{ background-color:#FFF;clear:both; float:left; height:80px; width:100%;}
+#footer_home{ background-image:url(../images/footer_special_bg.jpg); background-repeat:no-repeat; background-position:center top;}
+#footer_content{ height:80px; margin:0 auto; width:1020px;}
+/*FIN DE FOOTER*/
+
+/*1024*/
+@media screen and (max-width:1050px){
+#destello{ display:none;}
+}
+
+@media screen and (min-width:1600px){
+#detalle_resultado{height:960px !important;}
+}
+
+/*COMIENZA ESTILOS NATY*/
+
+#int_container { margin:0px; width:100%; height:auto; margin:0px auto 0px auto; overflow:hidden;} 
+.bold { font-weight:bold; color: #383938;}
+#btn_regresar { width: 89px; height:25px; margin-top:32px;} 
+
+/*PETALOS_INT*/ 
+#petalo01 { width:59px; height:74px; float:left; position:absolute;}
+#petalo02 { width:47px; height:57px; float:left; position:absolute;}
+#petalo03 { width:60px; height:48px; float:left; position:absolute;}
+#petalo04 { width:60px; height:41px; float:left; position:absolute;}
+#petalo05 { width:35px; height:41px; float:left; position:absolute;}
+#petalo06 { width:60px; height:48px; float:left; position:absolute;}
+#petalo07 { width:49px; height:34px; float:left; position:absolute;}
+
+/*HEADER_INT*/
+#int_header { background-image:url(../images/int_header.jpg); width:100%; height: 330px; background-repeat:no-repeat; background-position:center top;}
+#int_share { float:right; width:75px; margin-right:30px; text-align:right;}
+#fb_btn {  margin-top:20px; overflow:hidden;}
+#tw_btn { margin-top:8px;}
+#inicio { margin-top:60px;font-family: VistaSanMed; font-size:15px; color:#b6242b; cursor:pointer;}
+#int_header_content { width:1024px; height:auto; margin:0px auto 0px auto;}
+#contenedor_header_interno{ width:1024px; height:51px; float:left;} 
+#int_logo_esika { padding-top: 10px; padding-left:50px; width:66px; height:41px; float:left;}
+#int_logo_special { background-image:url(../images/int_logo_special.png); padding-left:50px;width:252px; height:140px; float:left;}
+#titulo_seccion{font-family: VistaSanBold; font-size:20px; color:#FFF; line-height:18px; padding-left:70px; padding-top:95px; float:left; clear:both;}
+#int_titular {margin-left:70px; margin-top:59px; float:left; clear:both;}
+.int_titular_disfruta{ font-family: VistaSanMed; font-size:28px; color:#b6242b; width:100%; float:left;}
+.int_titular_contigo{ font-family: VistaSanMed; font-size:45px; color:#b6242b; clear: both; width:100%; float:left; margin-top:-10px;}
+
+
+/*FOOTER_INT*/
+#int_footer { width:1024px; margin: 0px auto 0px auto; clear:both; height:252px;}
+#int_footer01 { background-image:url(../images/int_footer01.jpg); width:772px; height:244px; float:left;}
+#int_footer02 { width:252px; float:left;}
+#masinfo_btn { background-image:url(../images/masinfo_btn.png); width:92px; height:68px; position:absolute; float:left; margin: 0px 0px 0px 116px; font-family: VistaSanMed; font-size:12px; color:#FFF; text-align:center; line-height:12px; padding-top:18px; cursor:pointer; }
+
+/*CONTENIDO_INT*/ 
+#int_content { width:1024px; margin: 0px auto 0px auto; height:auto;}
+#int_texto_descripcion { margin-left:70px; font-family: VistaSanBook; font-size:15px; margin-bottom:44px;}
+#int_all_preguntas { min-height:345px; margin:0px auto 20px;}
+#int_all_pregunta01 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+#int_all_pregunta02 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+#int_all_pregunta03 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+#int_all_pregunta04 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+#int_all_pregunta05 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+#int_all_pregunta06 { height:auto; float:left; margin-left:68px; margin-right:68px; width:888px;}
+.int_pregunta {height:40px; margin-bottom:15px;}
+.int_numero_pregunta { background-image:url(../images/int_numero.jpg); width:38px; height:30px; float:left; color:#FFF; text-align:center; font-family: GothamBookRegular; padding-top:5px;}
+.int_txt_pregunta { float:left;font-family: VistaSanBook; font-size:23px; margin-left:10px; padding-top:5px;}
+.int_all_opciones { margin-left:38px; height:auto; float:left;}
+.int_opcion { width:187px; height:auto; float:left; margin: 0px 10px; text-align:center;}
+.int_letra_opc { font-family: VistaSanMed; font-size:20px; color:#b6242b; padding-bottom:5px;}
+.int_opc_fotos { width:187px; height:220px; cursor:pointer;}
+.int_descripcion_foto {width:167px; margin: 0px 10px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4c4c4c; margin-top:10px; font-weight:bold;} 
+#all_pasos { clear:both; text-align:center; width:511px; height:50px; margin-top: 50px; float:left; margin-left: 265px; margin-bottom:20px;}
+#paso01 { width: 85px; float:left; cursor:pointer; background-image:url(../images/paso01on.jpg); width:85px; height:50px;}
+#paso02 { width: 87px; float:left; cursor:pointer; background-image:url(../images/paso02.jpg); width:87px; height:50px;}
+#paso03 { width: 85px; float:left; cursor:pointer; background-image:url(../images/paso03.jpg); width:85px; height:50px;}
+#paso04 { width: 86px; float:left; cursor:pointer; background-image:url(../images/paso04.jpg); width:86px; height:50px;}
+#paso05 { width: 88px; float:left; cursor:pointer; background-image:url(../images/paso05.jpg); width:88px; height:50px;}
+#paso06 { width: 79px; float:left; cursor:pointer; background-image:url(../images/paso06.jpg); width:79px; height:50px;}
+
+.click_respuesta {width:187px;height:220px;float:left;position:absolute; display:none;}
+.click_respuesta_ {width:187px;height:220px;float:left;position:absolute;}
+
+/*INTERIOR_RESULTADO*/
+
+#special_txt{ float: left; height: 383px; margin: 36px 0 0 8px; width: 462px;}
+.int_titular_resultado{ font-family: VistaSanMed; font-size:35px; color:#b6242b; clear: both; width:100%; float:left; margin-top:-10px;}
+.int_titular_momento{ font-family: VistaSanMed; font-size:24px; color:#b6242b; width:100%; float:left;}
+#all_tarjeta { width:998px; height:607px;}
+#iz_tarjeta { width:65px; height:607px; float:left;}
+#centro_tarjeta { width:868px; float:left; height: 607px;}
+#tarjeta { width:868px; height:601px; background-image:url(../images/fondoresultado.jpg); margin-top:1px; background-repeat:no-repeat;}
+#bottom_tarjeta { width:868px; height: 6px;}
+#de_tarjeta { width:65px; height:607px; float:left;}
+#compartir_receta { font-family: VistaSanMed; font-size:14px; color:#6b6b6b; margin-top: 20px; text-align:center;}
+#compartir_receta img { margin-left:5px;}
+#all_pugglin_fb { width:607px; height:auto; margin: 0px auto; text-align:center; margin: 20px auto 50px;}
+#top_sombra_pluggin { width:607px; height:19px;}
+#text_pregunta_pluggin { height:36px; font-family: VistaSanMed; font-size:20px; color:#b6242b; padding-top:12px;}
+#pluggin_fb { width:607px; height:312px;}
+
+
+/*header galeria*/
+#int_header_galeria { background-image:url(../images/menu_galeria_header.jpg); width:100%; height: 317px; background-repeat:no-repeat; background-position:center top;}
+#int_header_content_galeria { width:1024px; height:317px; margin:0px auto 0px auto;} 
+.int_titular_disfruta_galeria{ font-family: VistaSanMed; font-size:19px; color:#b6242b; width:100%; float:left;}
+.int_titular_contigo_galeria{ font-family: VistaSanMed; font-size:45px; color:#b6242b; clear: both; width:100%; float:left; margin-top:-10px;}
+.int_galeria {height:61px; width:100%;}
+#int_galeria p{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#717171; margin-top:50px; float:left; width:100%}
+#int_content_galeria { width:100%; height:439px;}
+#opciones_galeria{ width:888px; height:101px; float:left; margin-top:20px;}
+#int_all_galeria{ float:left; clear:both; min-height:439px; width:100%; background-image:url(../images/menu_galeria_content.jpg); background-repeat:no-repeat; background-position:center top;}
+#int_galeria{ width:964px; height:auto; margin:0 auto; padding-left:60px;}
+#contigo_galeria{ width:140px; height:101px; float:left; background-image:url(../images/contigo_misma_g.png); margin-left:15px; cursor:pointer;}
+#contigo_galeria h1{background-image:url(../images/bullet_galeria.png); background-position: 15px 5px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed;
+ font-size: 19px; margin-top: 27px; padding-left: 33px; line-height:18px;}
+#familia_galeria{width:140px; height:101px; float:left; background-image:url(../images/con_familia_g.png); margin-left:15px;cursor:pointer;}
+#familia_galeria h1{background-image:url(../images/bullet_galeria.png); background-position: 15px 5px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed;
+ font-size: 19px; margin-top: 27px; padding-left: 33px; line-height:18px;}
+#amigas_galeria{ width:140px; height:101px; float:left; background-image:url(../images/con_amigas_g.png); margin-left:15px;cursor:pointer;}
+#amigas_galeria h1{background-image:url(../images/bullet_galeria.png); background-position: 15px 5px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed;
+ font-size: 19px; margin-top: 27px; padding-left: 33px; line-height:18px;}
+#pareja_galeria{width:140px; height:101px; float:left; background-image:url(../images/con_pareja_g.png); margin-left:15px;cursor:pointer;}
+#pareja_galeria h1{background-image:url(../images/bullet_galeria.png); background-position: 15px 5px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed;
+ font-size: 19px; margin-top: 27px; padding-left: 33px; line-height:18px;}
+ 
+#footer_galeria{ width:100%; height:173px; float:left; clear:both; background-image:url(../images/galeria_footer_bg.png); background-repeat:no-repeat; background-position:center top;  margin-top: -173px; position:relative; z-index:10;}
+#footer_int{ width:1024px; height:auto; margin:0 auto;}
+#frasco_special_galeria{ width:271px; height:223px; float:left; margin-top:-50px;}
+#frasco_g{ width:225px; height:223px; float:left; background-image:url(../images/special_footer_galeria.png); background-repeat:no-repeat; margin:0px 0 0 25px;}
+#opciones_galeria_selec{ width:888px; height:144px; float:left; margin-top:20px;}
+#contigo_galeria_selec{ width:180px; height:128px; float:left; background-image:url(../images/contigo_misma_selec.png); margin-left:15px; cursor:pointer;}
+#contigo_galeria_selec h1{background-image:url(../images/bullet_galeria.png);     background-position: 31px 5px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed; font-size: 23px; line-height: 18px; margin-top: 39px;  padding-left: 50px;}
+
+#familia_galeria_secundario{width:107px; height:78px; float:left; background-image:url(../images/familia_btn2.png); margin-left:15px;cursor:pointer;}
+#familia_galeria_secundario h1{background-image:url(../images/bullet_galeria.png); background-position: 12px 0px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed; font-size: 14px; margin-top: 23px; padding-left: 30px; line-height:13px;}
+#amigas_galeria_secundario{ width:107px; height:78px; float:left; background-image:url(../images/amigas_btn2.png); margin-left:15px;cursor:pointer;}
+#amigas_galeria_secundario h1{background-image:url(../images/bullet_galeria.png); background-position: 12px 0px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed; font-size: 14px; margin-top: 23px; padding-left: 30px; line-height:13px;}
+#pareja_galeria_secundario{width:107px; height:78px; float:left; background-image:url(../images/pareja_btn2.png); margin-left:15px;cursor:pointer;}
+#pareja_galeria_secundario h1{background-image:url(../images/bullet_galeria.png); background-position: 12px 0px; background-repeat: no-repeat; color: #FFFFFF; font-family: VistaSanMed; font-size: 14px; margin-top: 23px; padding-left: 30px; line-height:13px;}
+#carrusel_contenedor_galeria{ width:100%; height:235px; float:left; margin-top:60px;}
+#contenedor_carrusel_animacion{ width:965px; height:235px; float:left;}
+#arrow_left{ width:20px; height:74px; float:left; margin-top:80px; cursor:pointer;}
+#arrow_right{ width:20px; height:74px; float:left; margin-top:80px; cursor:pointer;}
+#mascara_galeria{ width:923px; height:235px; float:left; overflow:hidden;}
+.contenedor_miniaturas{ float:left; width:923px; height:235px;}
+.miniatura_galeria{ width:319px; height:235px; float:left; margin-right:-18px; cursor:pointer;}
+.sombra_left{ width:17px; height:235px; float:left; background-image:url(../images/sombra_left.png);}
+.vista_previa{ width:285px; height:200px; float:left;}
+.sombra_right{ width:17px; height:235px; float:left; background-image:url(../images/sombra_right.png);}
+.imagen_m{ width:284px; height:201px; float:left;}
+.velo_m{width:284px; height:201px;background-image:url(../images/velo_miniaturas.png); position:relative; z-index:10;}
+.pais_m{ background-image:url(../images/bg_special_miniatura_pais.png); height:21px; float:left; width:163px; margin-top:-34px; position:relative; z-index:20; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#dfcaca; padding:13px 0px 0px 44px;}
+#footer_galeria_2{background-image:url(../images/galeria_footer_bg.png); background-repeat:no-repeat; background-position:center bottom; width:100%; height:180px; float:left; margin-top:45px;}
+#contenedor_btn_regresar{ width:1024px; height:100px; margin:0 auto;}
+#detalle_resultado{ width:100%; height:100%; background-image:url(../images/velo_detalle_special.png); background-repeat:repeat-x; position:absolute; top:130px; z-index:200; /*display:none;*/}
+#all_resultado { width:1024px; height:607px; margin:0 auto; margin-top:166px;}
+.textos_usuaria{ float:left; height:123px; width:507px;  margin:90px 0 0 212px; color:#635f5c;}
+.datos_principales{ float:left; height:36px; width:432px; font-family:Arial, Helvetica, sans-serif; font-size:26px;}
+.txt_datos{ float:left; height:58px; width:507px; font-family: VistaSanBook; font-size:17px; color:#635f5c;}
+.descripcion_usuaria{ float:left; height:20px; width:100%; color:#c70a0d;  font-family:VistaSanBold; font-size:17px;}
+.nombre{ width:100%; height:36px; float:left; text-align:left; font-weight:bold; color:#c70a0d; font-size:30px;}
+.eres{ width:62px; height:36px; float:left; color:#635f5c;}
+.estado{height:36px; float:left; font-weight:bold;color:#635f5c;}
+#share_interior{  float:left; height:85px;  margin:9px 0px 0px 821px; position:relative; width:73px; z-index:100; margin-bottom:-37px;}
+#inicio_blanco{ width:42px; height:22px; float:left; background-image:url(../images/inicio_icon_white.png); background-repeat:no-repeat; margin-top:15px; color:#FFFFFF; font-family: VistaSanMed; font-size:14px; text-align:center; margin-left:16px; padding-left:15px; cursor:pointer;}
+.over_galeria{ width:284px; height:121px; background-image:url(../images/overlay_galeria_special.png); background-repeat:no-repeat; position:absolute; z-index:150; text-align:center; color:#FFFFFF; padding-top:80px; display:none;}
+#all_miniaturas{ width:1846px; height:auto; float:left;}

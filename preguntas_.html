@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_bold.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_book.css">
+<link rel="stylesheet" type="text/css" href="fonts/vista_med.css">
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript">	
+	$().ready(function(e) {	
+	
+	
+		$("#paso01").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01on.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06.jpg)');
+			$("#mask").animate({marginLeft:0},"200");			
+		});
+		
+		$("#paso02").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02on.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06.jpg)');
+			$("#mask").animate({marginLeft:-1024},"200");			
+		});  
+		
+		$("#paso03").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03on.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06.jpg)');
+			$("#mask").animate({marginLeft:-2048},"200");			
+		}); 
+		
+		$("#paso04").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04on.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06.jpg)');
+			$("#mask").animate({marginLeft:-3072},"200");			
+		});
+		
+		$("#paso05").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05on.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06.jpg)');
+			$("#mask").animate({marginLeft:-4096},"200");			
+		});
+		
+		$("#paso06").bind("click",function(){
+			$("#paso01").css("background-image",'url(images/paso01.jpg)');
+			$("#paso02").css("background-image",'url(images/paso02.jpg)');
+			$("#paso03").css("background-image",'url(images/paso03.jpg)');
+			$("#paso04").css("background-image",'url(images/paso04.jpg)');
+			$("#paso05").css("background-image",'url(images/paso05.jpg)');
+			$("#paso06").css("background-image",'url(images/paso06on.jpg)');
+			$("#mask").animate({marginLeft:-5120},"200");			
+		});
+		
+		$(".click_respuesta_").hide();
+		$(".int_opc_fotos").bind("click",function(){
+		$(".click_respuesta_").show("blind",{direction:"vertical"},850);
+		});
+		  
+});
+</script>
+
+
+</head>
+
+<body>
+<div id="int_container">
+
+	<div id="petalo01"><img src="images/petalo01.png" width="59" height="74" /></div>
+    <div id="petalo02"><img src="images/petalo02.png" width="47" height="57" /></div>
+    <div id="petalo03"><img src="images/petalo03.png" width="60" height="48" /></div>
+    <div id="petalo04"><img src="images/petalo04.png" width="60" height="41" /></div>
+    <div id="petalo05"><img src="images/petalo05.png" width="35" height="41" /></div>
+    <div id="petalo06"><img src="images/petalo06.png" width="60" height="48" /></div>
+    <div id="petalo07"><img src="images/petalo07.png" width="49" height="34" /></div>
+    
+  <div id="int_header">
+  	<div id="int_header_content">
+     	<div id="int_share">
+   	    	<div id="fb_btn"><img src="images/like_btn.png" width="73" height="24" /></div>
+       		<div id="tw_btn"><img src="images/tweet_btn.png" width="66" height="20" /></div>
+            <div id="inicio"><img src="images/inicio_icon.png" width="16" height="13" /> inicio</div>
+        </div>   	
+    	<div id="int_logo_esika"><img src="images/int_logo_esika.png" width="66" height="41" /></div>
+        <div id="int_logo_special">
+        	<div id="titulo_seccion">Disfruta <br /> contigo misma</div>
+        </div>
+        <div id="int_titular">
+        	<span class="int_titular_disfruta">Disfruta la vida con la</span>
+            <span class="int_titular_contigo">mejor compañía: ¡TÚ!</span>
+        </div>
+    </div>
+  </div>
+  <div id="int_content">
+  	<div id="int_texto_descripcion"><span class="bold">Crea</span> tu propia <span class="bold">receta</span> para hacer especial cada momento que tienes para ti.</div>
+    <div id="int_all_preguntas" style="overflow:hidden; width:1024px;">
+      <div id="mask" style="width:6144px; height:auto; float:left;">
+    	<div id="int_all_pregunta01">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">1</div>
+            	<div class="int_txt_pregunta">¿Qué te provoca hacer cuando estás sola en casa?</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+                  <div class="click_respuesta_"><img src="images/int_foto_selec.png" width="187" height="220" /></div>	
+            	  <div class="int_opc_fotos"><img src="images/int_preg1_fotoA.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Colocar flores por todos  los rincones.</div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoB.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Dar estilo a mi aspecto  físico.
+          </div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/int_preg1_fotoC.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Ver una película  divertida.</div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoD.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Tomar una ducha relajante.</p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+        <div id="int_all_pregunta02">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">2</div>
+            	<div class="int_txt_pregunta">Es sábado y te has quedado en casa sin compañía, ¿qué haces?</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+            	  <div class="int_opc_fotos"><img src="images/int_preg1_fotoA.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Ordeno el álbum de fotos familiar.</div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoB.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Cambio la decoración de mi  habitación.</div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/int_preg1_fotoC.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Salgo a caminar.</div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoD.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Me engrío con un postre.</p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+        <div id="int_all_pregunta03">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">3</div>
+            	<div class="int_txt_pregunta">Un gran día lo celebras...</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+            	  <div class="int_opc_fotos"><img src="images/int_preg1_fotoA.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Con una gran comida.</div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoB.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Comprando un perfume.</div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/int_preg1_fotoC.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Yendo a la peluquería.</div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoD.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Con una caja de chocolates.</p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+        <div id="int_all_pregunta04">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">4</div>
+            	<div class="int_txt_pregunta">¿Qué detalles te hacen sentir bien?</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+            	  <div class="int_opc_fotos"><img src="images/int_preg1_fotoA.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Contemplar un atardecer  frente al mar.</div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoB.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Ir de shopping.
+              </div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/int_preg1_fotoC.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Comprarme algo costoso. </div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoD.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Comer un helado. </p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+        <div id="int_all_pregunta05">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">5</div>
+            	<div class="int_txt_pregunta">Estás frente al espejo y tu frase de hoy sería:</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+            	  <div class="int_opc_fotos"><img src="images/contigo5a.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">El verdadero amor es para  siempre.</div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/contigo5b.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Una mujer con estilo se ve  más elegante.
+              </div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/contigo5c.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Lograr lo inimaginable es  posible. </div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/contigo5d.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Una mirada sensual es más  provocadora. </p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+        <div id="int_all_pregunta06">
+        	<div class="int_pregunta">
+            	<div class="int_numero_pregunta">6</div>
+            	<div class="int_txt_pregunta">¿Cuál de estos aromas te agrada más?</div>
+            </div>
+            <div class="int_all_opciones">
+            	<div class="int_opcion">
+            	  <div class="int_opc_fotos"><img src="images/int_preg1_fotoA.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Jazmín. </div>
+            </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoB.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Gardenia.
+              </div></div><div class="int_opcion">
+                    <div class="int_opc_fotos"><img src="images/int_preg1_fotoC.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">Frambuesa. </div>
+                </div>
+                <div class="int_opcion">
+                  <div class="int_opc_fotos"><img src="images/int_preg1_fotoD.jpg" width="187" height="220" /></div>
+                    <div class="int_descripcion_foto">
+                      <p>Miel. </p>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+      </div>	 	
+        <div id="all_pasos">
+            	<div id="paso01"></div>
+                <div id="paso02"></div>
+                <div id="paso03"></div>
+                <div id="paso04"></div>
+                <div id="paso05"></div>
+                <div id="paso06"></div>
+          </div>
+    </div>
+  </div>
+  <div id="int_footer">
+  	<div id="int_footer01">
+    	<div id="btn_regresar" style=" margin-left:480px;"><a href="#"><img src="images/regresar_btn.png" width="89" height="25" border="0" onclick="history.back(-1);"/></a></div>
+    </div>
+    
+    <div id="int_footer02">
+    <div id="masinfo_btn">Conoce más <br />sobre Special <br />
+      aquí <img src="images/flecha_rollover.png" width="6" height="7" align="absmiddle" /></div>
+    <a href="#" ><img src="images/int_footer02.jpg" width="252" height="244" border="0"/></a></div>
+  </div>
+</div>
+</body>
+</html>
